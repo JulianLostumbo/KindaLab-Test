@@ -6,7 +6,7 @@ import checkoutPage from '../../support/pages/checkoutpage';
 import userData from '../../fixtures/dataui.json';
 
 describe('E2E Purchase Test', () => {
-  it.only('ProductPurchase_AutomationExercise_009	-	Verify the purchase of a single product', () => {
+  it('ProductPurchase_AutomationExercise_009	-	Verify the purchase of a single product', () => {
       // Step 1: Login
       loginPage.visit();
       loginPage.login(userData.validEmail, userData.validPassword);
