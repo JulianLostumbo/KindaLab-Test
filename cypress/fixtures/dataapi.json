@@ -1,0 +1,5 @@
+{
+  "cookie" : "token=abc123",
+  "auth" : "Basic YWRtaW46cGFzc3dvcmQxMjM=",
+  "url" : "http://localhost:3001"
+}
